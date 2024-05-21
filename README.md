@@ -1,3 +1,7 @@
+# Briefly describe what the code is supposed to do.
+
+The correct behavior is for the code to define a React component called `FlashSwarm' for managing and logging swarms. It includes a form for users to enter the time and location of the swarm. Upon submission, it records the swarm details and can send a notification via an API. The component also maintains and displays a list of swarm logs that includes the time and location of each swarm. The notification status is temporarily displayed to the user when a notification is successfully sent.
+
 # Does the code work? If not, what's broken. 
 
 Yes. The code is currently working in someway, but with much less features.
