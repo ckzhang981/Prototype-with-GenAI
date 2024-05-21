@@ -5,6 +5,7 @@ The correct behavior is for the code to define a React component called `FlashSw
 # Does the code work? If not, what's broken. 
 
 Yes. The code is currently working in someway, but with much less features.
+However, these is something not work, like the sending email feature. It will cause error since there is not database or any sort of server, but it won't result the code crush.
 
 # How is the code better than what the team currently has?
 
@@ -14,7 +15,9 @@ No. It is much worse than the team currently has.
 
 First, it can only achieve some basic frontend work, like the textbox and mapping feature.
 
-Also, It does not have a database or any backend system, so nothing can be permently stored. Everything is in the frontend and are temperory.
+Also, It does not have a database or any backend system, so nothing can be permently stored. Everything is in the frontend and are temperory, resulting the inability of the sending email feature to work.
+
+Moreover, even though the code can send email to notify the user, it is not able to receive user's replied message and record it.
 
 It seems not really work well between multiple files. Coding in one huge file performs much better than coding between seperate files. But it still performs worse than human.
 
